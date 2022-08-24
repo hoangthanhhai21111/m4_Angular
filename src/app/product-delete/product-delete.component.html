@@ -1,0 +1,13 @@
+<div class="panel panel-default" style="width: 400px; margin: 0px auto;">
+    <div class="panel-heading">
+        <h3 class="panel-title">Please confirm !</h3>
+    </div>
+    <div class="panel-body">
+        Product <strong>{{ product.name }}</strong> will be removed ?
+    </div>
+    <div class="panel-footer" style="overflow: hidden;">
+        <button type="button" on-click="handleYes(product.id)" class="btn btn-primary pull-left">OK</button>
+        <button type="button" on-click="handleNo()"class="btn btn-default pull-right">Cancel</button>
+    </div>
+</div>
+ 
